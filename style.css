@@ -1,0 +1,144 @@
+*{
+    margin: 4px;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);
+}
+
+.background .shape{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+   
+}
+
+.shape:first-child{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,56,179,0.8660714285714286) 43%, rgba(0,212,255,0.375875350140056) 100%);
+    left: -320px;
+    top: -10cm;
+
+}
+
+.shape:last-child{
+    background-image: linear-gradient(to right top, #7c1504, #982d0a, #b4440d, #d05c10, #eb7512);
+    right: 4cm;
+    top: 200px;
+   
+}
+form{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 50px 35px;
+}
+
+form *{
+    color: white;
+    letter-spacing: 0.5px;
+    
+}
+h2{
+    text-align: center;
+}
+.Login{
+   background-color: #000;
+   
+}
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 5px;
+    display: inline-block;
+    border: none;
+    background-color: #151515;
+    color: white;
+    
+  }
+  .Login {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn1{
+    background-color: rgba(255, 255, 255, 0.13);
+    border: none;
+    padding: 10px 32px;
+    
+    
+     }
+ 
+ .btn2{
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 10px 32px;
+    border: none;
+    margin-left: 80px;
+    
+ }
+
+
+
+
+
+
+
+
+
+  /* set the brands styling */
+  /* .fa-brands {
+   
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    
+    
+  } */
+
+  
+  /*( Set a specific color for each brand )*/
+
+  /* Facebook */
+
+  /* .fa-facebook {
+    background-color: #eee8e8;
+    color: rgb(44, 2, 72);
+
+    } */
+  
+  /* Google */
+  /* .fa-google {
+    
+    color: rgb(177, 17, 17);
+  } */
+
+
+
